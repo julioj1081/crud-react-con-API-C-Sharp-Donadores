@@ -1,0 +1,5 @@
+Se creo una API REST usando c# NET.CORE despues de crear la api 
+se uso react fue un poco complicado por que casi no le entendi y
+no tengo la suficiente practica pero quedo la aplicacion tener en cuenta 
+la url que nos ofrece react y la API de C# si no tiene acceso a 
+la api no podremos ver los datos checarlo con postman

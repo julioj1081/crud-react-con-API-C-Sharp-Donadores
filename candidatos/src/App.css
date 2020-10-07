@@ -1,0 +1,14 @@
+.responsive{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1000px){
+    .responsive{
+        display: flex;
+        flex-direction: column;
+    }
+    .MuiInputBase-root, .MuiOutlinedInput-root, .MuiInputBase-formControl{
+        width: 150px !important;
+    }
+}

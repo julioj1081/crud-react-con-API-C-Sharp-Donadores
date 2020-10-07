@@ -1,0 +1,46 @@
+https://www.youtube.com/watch?v=NemyDIUcC64&list=PLG73S_GvUh9jl9-1iAC8Zc0ggwvPzvZjL&index=20&ab_channel=CodAffection
+la api y desarrollo comienza antes de 18:12
+nos enseña como crearla desde 0 y como usarla en postman
+
+creacion de web en react
+
+npx create-react-app react-app  //una vez entramos a la carpeta react-app
+				// escribimos code .
+
+3.instalar estos 3 paquetes en react-app
+
+npm i -s redux    react-redux       redux-thunk  axios
+
+npm i -s @material-ui/core @material-ui/icons
+
+npm i -s react-toast-notifications
+
+
+appStructura
+
+*src
+	*actions
+	-api.js http request
+	-dCandidate.js redux actions y action creator
+	-store.js redux store configuration
+
+	*components
+	DCandidateForm..js
+	DCandidates.js lista
+	useForm.js Handles common form operations
+
+	*reducers
+	-dCandidate.js
+	-index.js
+
+
+-App.js
+-index.js
+-index.css
+
+actions - create, update, delete etc
+reducers
+store
+cmpnt -> dispatch(action) -> reducer -> cmpnt
+
+
